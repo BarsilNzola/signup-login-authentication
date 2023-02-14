@@ -1,0 +1,75 @@
+body, html {
+	height: 100%;
+}
+
+.box2 {
+	float: left;
+	margin: 250px 0 30px 30px;
+	font-family: dejavu;
+}
+
+.column-1 {
+	float: left;
+}
+
+.column-2 {
+	float: right;
+}
+
+img {
+	height: 150px;
+	width: 110px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-mail {
+  background: black;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-youtube {
+	background: black;
+	color: white;
+}
+
+.box {
+	transition: box-shadow .3s;
+	width: 400px;
+	height: 600px;
+	margin: 50px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	float: right;
+}
+
+#signup-form {
+	display: block;
+	margin: 60px 30px 30px 30px;
+	padding: 30px 20px;
+}
+
+#signup-form.input {
+	margin: 10px;
+}
+
+.box:hover {
+	box-shadow: 0 0 11px rgba(58, 193, 145, 0.85);
+}
