@@ -23,8 +23,8 @@ img {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 20px;
+  width: 50px;
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
@@ -34,7 +34,7 @@ img {
   opacity: 0.7;
 }
 
-.fa-mail {
+.fa-envelope {
   background: black;
   color: white;
 }
